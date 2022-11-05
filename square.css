@@ -1,0 +1,17 @@
+#red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index:0;
+}
+
+#blue{
+    background-color: rgb(6, 6, 128);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index:1;
+}

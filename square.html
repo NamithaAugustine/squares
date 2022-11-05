@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="square.css">
+</head>
+
+<body>
+
+    <div id="red" onclick="clicked('r')"></div>
+    <div id="blue" onclick="clicked('b')"></div>
+
+    <script>
+        var red= document.getElementById('red');
+        var blue = document.getElementById('blue');
+
+        function clicked(div){
+            if(div==='r'){
+                red.style.zIndex=1;
+                blue.style.zIndex=0;
+            }
+            else
+            {
+                blue.style.zIndex=1;
+                red.style.zIndex=0;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
